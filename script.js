@@ -11,7 +11,7 @@ const sortedBands = bands.sort((a, b) => {
   return bandA.localeCompare(bandB);
 });
 
-let ul=document.querySelector("#band");
+let ul=document.querySelector("#bands");
 
 for(let i=0;i<bands.length;i++){
 	let li=document.createElement("li");
